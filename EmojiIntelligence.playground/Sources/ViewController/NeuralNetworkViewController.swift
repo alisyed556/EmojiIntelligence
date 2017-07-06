@@ -65,10 +65,10 @@ public class NeuralNetworkViewController: UIViewController {
     /// The Status Label
     fileprivate lazy var statusLabel: UILabel = {
        let label = UILabel()
-        label.text = "🤖 TEACH ME..."
+        label.text = "🤖 Made by Syed (An Open Source Project)"
         label.textColor = UIColor.lightGray
         label.textAlignment = .center
-        label.font = UIFont(name: "AvenirNext-Medium", size: 17.0)
+        label.font = UIFont(name: "AvenirNext-Medium", size: 14.0)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
